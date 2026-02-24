@@ -365,24 +365,6 @@
             mods = <(MOD_LSFT)>;
         };
 
-        qmark_fslash: qmark_fslash {
-            compatible = "zmk,behavior-mod-morph";
-            label = "QMARK_FSLASH";
-            bindings = <&kp QMARK>, <&kp FSLH>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        qmark_fslash_ru: qmark_fslash_ru {
-            compatible = "zmk,behavior-mod-morph";
-            label = "QMARK_FSLASH_RU";
-            bindings = <&kp_unshift AMPS>, <&kp_unshift PIPE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
         bt_0: bt_0 {
             compatible = "zmk,behavior-mod-morph";
             label = "BT_0";
@@ -476,27 +458,6 @@
             tapping-term-ms = <170>;
         };
 
-        ins_row: ins_row {
-            compatible = "zmk,behavior-mod-morph";
-            label = "INSERT_ROW";
-            bindings = <&in_below>, <&in_above>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-            keep-mods = <0>;
-        };
-
-        lt_typing: lt_typing {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LT_TYPING";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <170>;
-            quick-tap-ms = <100>;
-            flavor = "tap-preferred";
-        };
-
         undo_redo: undo_redo {
             compatible = "zmk,behavior-mod-morph";
             label = "UNDO_REDO";
@@ -578,24 +539,6 @@
             bindings = <&kp>, <&kp_unshift>;
 
             quick-tap-ms = <100>;
-        };
-
-        double_quote: double_quote {
-            compatible = "zmk,behavior-mod-morph";
-            label = "DOUBLE_QUOTE";
-            bindings = <&kp DQT>, <&kp SQT>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        double_quote_ru: double_quote_ru {
-            compatible = "zmk,behavior-mod-morph";
-            label = "DOUBLE_QUOTE_RU";
-            bindings = <&kp AT>, <&ruen SQT>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
         };
 
         en_dot: en_dot {
