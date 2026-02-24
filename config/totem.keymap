@@ -702,19 +702,19 @@
 
         sym_linux {
             bindings = <
-           &kp DQT        &kp LT         &kp EQUAL        &kp GT          &kp GRAVE      &kp CARET   &kp LBKT        &kp UNDER       &kp RBKT       &kp SQT
-           &mt LGUI BSLH  &mt LALT LPAR  &mt LCTRL MINUS  &mt LSHFT RPAR  &kp PLUS       &kp PRCNT   &mt LSHFT LBRC  &mt LCTRL SEMI  &mt LALT RBRC  &mt LGUI EXCL
-&kp QMARK  &kp HASH       &kp STAR       &kp COLON        &kp FSLH        &kp AT         &enru HASH  &kp PIPE        &kp TILDE       &kp AMPS       &kp DLLR       &kp EXCL
-                                         &trans           &trans          &kp LG(DOT)    &trans      &trans          &trans
+           &kp DQT        &kp LT         &kp EQUAL        &kp GT          &kp GRAVE    &kp CARET   &kp LBKT        &kp UNDER       &kp RBKT       &kp SQT
+           &mt LGUI BSLH  &mt LALT LPAR  &mt LCTRL MINUS  &mt LSHFT RPAR  &kp PLUS     &kp PRCNT   &mt LSHFT LBRC  &mt LCTRL SEMI  &mt LALT RBRC  &mt LGUI EXCL
+&kp QMARK  &kp HASH       &kp STAR       &kp COLON        &kp FSLH        &kp AT       &enru HASH  &kp PIPE        &kp TILDE       &kp AMPS       &kp DLLR       &kp EXCL
+                                         &trans           &trans          &kp UNDER    &trans      &trans          &trans
             >;
         };
 
         sym_ru_linux {
             bindings = <
-                  &kp_unshift AT         &ruen LT               &kp_unshift EQUAL        &ruen GT                 &ruen GRAVE            &ruen CARET        &ruen LBKT           &kp UNDER               &ruen RBKT          &ruen SQT
-                  &mt_unshift LGUI BSLH  &mt_unshift LALT LPAR  &mt_unshift LCTRL MINUS  &mt_unshift LSHIFT RPAR  &kp_unshift PLUS       &kp_unshift PRCNT  &mt_ruen LSHFT LBRC  &mt_unshift LCTRL DLLR  &mt_ruen LALT RBRC  &mt_unshift LGUI EXCL
-&kp_unshift AMPS  &ruen HASH             &kp_unshift STAR       &kp_unshift CARET        &kp_unshift PIPE         &ruen AT               &kp_unshift HASH   &ruen PIPE           &ruen TILDE             &ruen AMPS          &ruen DLLR             &kp_unshift EXCL
-                                                                &trans                   &trans                   &kp_unshift LG(DOT)    &trans             &trans               &trans
+                  &kp_unshift AT         &ruen LT               &kp_unshift EQUAL        &ruen GT                 &ruen GRAVE          &ruen CARET        &ruen LBKT           &kp UNDER               &ruen RBKT          &ruen SQT
+                  &mt_unshift LGUI BSLH  &mt_unshift LALT LPAR  &mt_unshift LCTRL MINUS  &mt_unshift LSHIFT RPAR  &kp_unshift PLUS     &kp_unshift PRCNT  &mt_ruen LSHFT LBRC  &mt_unshift LCTRL DLLR  &mt_ruen LALT RBRC  &mt_unshift LGUI EXCL
+&kp_unshift AMPS  &ruen HASH             &kp_unshift STAR       &kp_unshift CARET        &kp_unshift PIPE         &ruen AT             &kp_unshift HASH   &ruen PIPE           &ruen TILDE             &ruen AMPS          &ruen DLLR             &kp_unshift EXCL
+                                                                &trans                   &trans                   &kp_unshift UNDER    &trans             &trans               &trans
             >;
         };
 
