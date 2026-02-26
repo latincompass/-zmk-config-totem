@@ -684,19 +684,19 @@
 
         num_linux {
             bindings = <
-           &kp STAR   &kp N7  &kp N8   &kp N9  &kp MINUS    &tog 9     &kp LC(LS(TAB))  &kp TAB    &kp LC(TAB)  &kp DEL
+           &kp STAR   &kp N7  &kp N8   &kp N9  &kp PRCNT    &tog 9     &kp LC(LS(TAB))  &kp TAB    &kp LC(TAB)  &kp DEL
            &kp COLON  &kp N4  &kp N5   &kp N6  &kp PLUS     &tog 5     &kp LSHFT        &kp LCTRL  &kp LALT     &kp LGUI
-&kp PRCNT  &kp FSLH   &kp N1  &kp N2   &kp N3  &kp EQUAL    &tog 2     &kp LC(V)        &kp LC(C)  &kp LC(X)    &undo_redo  &td_bootloader
-                              &kp DOT  &kp N0  &kp UNDER    &kp ENTER  &kp BSPC         &kp DEL
+&kp UNDER  &kp FSLH   &kp N1  &kp N2   &kp N3  &kp EQUAL    &tog 2     &kp LC(V)        &kp LC(C)  &kp LC(X)    &undo_redo  &td_bootloader
+                              &kp DOT  &kp N0  &kp MINUS    &kp ENTER  &kp BSPC         &kp DEL
             >;
         };
 
         num_ru_linux {
             bindings = <
-                   &kp_unshift STAR   &kp_unshift N7  &kp_unshift N8    &kp_unshift N9  &kp_unshift MINUS    &tog 10            &kp LC(LS(TAB))    &kp TAB            &kp LC(TAB)        &kp DEL
+                   &kp_unshift STAR   &kp_unshift N7  &kp_unshift N8    &kp_unshift N9  &kp_unshift PRCNT    &tog 10            &kp LC(LS(TAB))    &kp TAB            &kp LC(TAB)        &kp DEL
                    &kp_unshift CARET  &kp_unshift N4  &kp_unshift N5    &kp_unshift N6  &kp_unshift PLUS     &tog 6             &kp LSHFT          &kp LCTRL          &kp LALT           &kp LGUI
-&kp_unshift PRCNT  &kp_unshift PIPE   &kp_unshift N1  &kp_unshift N2    &kp_unshift N3  &kp_unshift EQUAL    &tog 2             &kp_unshift LC(V)  &kp_unshift LC(C)  &kp_unshift LC(X)  &undo_redo  &td_bootloader
-                                                      &kp_unshift FSLH  &kp_unshift N0  &kp UNDER            &kp_unshift ENTER  &kp BSPC           &kp DEL
+&kp_unshift UNDER  &kp_unshift PIPE   &kp_unshift N1  &kp_unshift N2    &kp_unshift N3  &kp_unshift EQUAL    &tog 2             &kp_unshift LC(V)  &kp_unshift LC(C)  &kp_unshift LC(X)  &undo_redo  &td_bootloader
+                                                      &kp_unshift FSLH  &kp_unshift N0  &kp_unshift MINUS    &kp_unshift ENTER  &kp BSPC           &kp DEL
             >;
         };
 
